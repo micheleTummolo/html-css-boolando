@@ -48,6 +48,7 @@ nav{
     display: flex;
     align-items: center;
     width: 15%;
+    justify-content: flex-end;
 }
 
 .coll_profile i{
@@ -61,16 +62,19 @@ nav{
 }
 
 .row{
-    margin: 0 auto 20px;
+    margin: 0px auto 40px;
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
 
 .coll{
+    width: calc(95%/3);
+}
+
+.card{
     position: relative;
     height: 404px;
-    width: calc(95%/3);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -126,23 +130,23 @@ nav{
 /*Fine Background image*/
 
 
-.red_label{
-    color: white;
+.label{
+    display: flex;
     position: absolute;
-    background-color: red;
     top: 355px;
     left: 0;
     font-size: 12px;
+    color: white;
+}
+
+.red_label{
+    margin-right: 3px;
+    background-color: red;
     padding: 4px;
 }
 
 .green_label{
-    color: white;
-    position: absolute;
     background-color: green;
-    top: 355px;
-    left: 38px;
-    font-size: 12px;
     padding: 4px;
 }
 
@@ -157,4 +161,30 @@ nav{
 
 .black_heart:hover{
     color: red;
+}
+
+.descrizione{
+    margin-top: 5px;
+}
+
+.descrizione h3{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.descrizione h1{
+    font-size: 14px;
+}
+
+.descrizione h2{
+    font-size: 13px;
+    color: red;
+}
+
+.descrizione span{
+    font-size: 13px;
+    color: black;
+    font-weight: 200;
+    text-decoration-line: line-through;
+    margin-left: 5px;
 }
