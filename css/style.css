@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    background-color: rgb(230, 100, 0);
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coll_menu{
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.color_white{
+    color: white;
+}
+
+.coll_img{
+
+}
+
+.coll_img img{
+    
+    width: 125px;
+}
+
+.coll_profile{
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.coll_profile i{
+    margin-right: 8px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    background-color: brown;
+}
+
+.row{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coll{
+    position: relative;
+    height: 404px;
+    width: calc(95%/3);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/*Inizio Background image*/
+.bk_image_1{
+    background-image: url(../img/1.webp);
+}
+
+.bk_image_1:hover{
+    background-image: url(../img/1b.webp);
+}
+
+.bk_image_2{
+    background-image: url(../img/2.webp);
+}
+
+.bk_image_2:hover{
+    background-image: url(../img/2b.webp);
+}
+
+.bk_image_3{
+    background-image: url(../img/3.webp);
+}
+
+.bk_image_3:hover{
+    background-image: url(../img/3b.webp);
+}
+
+.bk_image_4{
+    background-image: url(../img/4.webp);
+}
+
+.bk_image_4:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.bk_image_5{
+    background-image: url(../img/5.webp);
+}
+
+.bk_image_5:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.bk_image_6{
+    background-image: url(../img/6.webp);
+}
+
+.bk_image_6:hover{
+    background-image: url(../img/6b.webp);
+}
+/*Fine Background image*/
+
+
+.red_label{
+    color: white;
+    position: absolute;
+    background-color: red;
+    top: 355px;
+    left: 0;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.green_label{
+    color: white;
+    position: absolute;
+    background-color: green;
+    top: 355px;
+    left: 38px;
+    font-size: 12px;
+    padding: 4px;
+}
