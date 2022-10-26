@@ -39,10 +39,6 @@ nav{
     color: white;
 }
 
-.coll_img{
-
-}
-
 .coll_img img{
     
     width: 125px;
@@ -65,7 +61,7 @@ nav{
 }
 
 .row{
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -148,4 +144,17 @@ nav{
     left: 38px;
     font-size: 12px;
     padding: 4px;
+}
+
+.black_heart{
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    top: 7px;
+    right: 0px;
+    color: black;
+}
+
+.black_heart:hover{
+    color: red;
 }
