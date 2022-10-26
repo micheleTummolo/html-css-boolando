@@ -12,53 +12,55 @@ header{
     margin-bottom: 50px;
 }
 
-nav{
-    width: 70%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
+/*Inizio Navbar*/
+    nav{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.coll_menu{
-    width: 15%;
-    display: flex;
-    align-items: center;
-}
+    .coll_menu{
+        width: 15%;
+        display: flex;
+        align-items: center;
+    }
 
-.menu{
-    display: flex;
-    list-style-type: none;
-}
+    .menu{
+        display: flex;
+        list-style-type: none;
+    }
 
-.menu a{
-    margin-right: 5px;
-    text-decoration: none;
-}
+    .menu a{
+        margin-right: 5px;
+        text-decoration: none;
+    }
 
-.color_white{
-    color: white;
-}
+    .color_white{
+        color: white;
+    }
 
-.coll_img img{
-    
-    width: 125px;
-}
+    .coll_img img{
+        
+        width: 125px;
+    }
 
-.coll_profile{
-    display: flex;
-    align-items: center;
-    width: 15%;
-    justify-content: flex-end;
-}
+    .coll_profile{
+        display: flex;
+        align-items: center;
+        width: 15%;
+        justify-content: flex-end;
+    }
 
-.coll_profile i{
-    margin-right: 8px;
-    color: white;
-}
+    .coll_profile i{
+        margin-right: 8px;
+        color: white;
+    }
+/*Fine Navbar*/
+
 
 .container{
     width: 100%;
-    background-color: brown;
 }
 
 .row{
@@ -129,62 +131,113 @@ nav{
 }
 /*Fine Background image*/
 
+/*Inizio Label*/
+    .label{
+        display: flex;
+        position: absolute;
+        top: 355px;
+        left: 0;
+        font-size: 12px;
+        color: white;
+    }
 
-.label{
-    display: flex;
-    position: absolute;
-    top: 355px;
-    left: 0;
-    font-size: 12px;
-    color: white;
-}
+    .red_label{
+        margin-right: 3px;
+        background-color: red;
+        padding: 4px;
+    }
 
-.red_label{
-    margin-right: 3px;
-    background-color: red;
-    padding: 4px;
-}
+    .green_label{
+        background-color: green;
+        padding: 4px;
+    }
 
-.green_label{
-    background-color: green;
-    padding: 4px;
-}
+    .black_heart{
+        background-color: white;
+        position: absolute;
+        padding: 10px;
+        top: 7px;
+        right: 0px;
+        color: black;
+    }
 
-.black_heart{
-    background-color: white;
-    position: absolute;
-    padding: 10px;
-    top: 7px;
-    right: 0px;
-    color: black;
-}
+    .black_heart:hover{
+        color: red;
+    }
 
-.black_heart:hover{
-    color: red;
-}
+/*Fine Label*/
 
-.descrizione{
-    margin-top: 5px;
-}
 
-.descrizione h3{
-    font-size: 12px;
-    font-weight: 100;
-}
+/*Inizio Descrizione*/
+    .descrizione{
+        margin-top: 5px;
+    }
 
-.descrizione h1{
-    font-size: 14px;
-}
+    .descrizione h3{
+        font-size: 12px;
+        font-weight: 100;
+    }
 
-.descrizione h2{
-    font-size: 13px;
-    color: red;
-}
+    .descrizione h1{
+        font-size: 14px;
+    }
 
-.descrizione span{
-    font-size: 13px;
-    color: black;
-    font-weight: 200;
-    text-decoration-line: line-through;
-    margin-left: 5px;
-}
+    .descrizione h2{
+        font-size: 13px;
+        color: red;
+    }
+
+    .descrizione span{
+        font-size: 13px;
+        color: black;
+        font-weight: 200;
+        text-decoration-line: line-through;
+        margin-left: 5px;
+    }
+
+/*Fine Descrizione*/
+
+/*Inizio Footer*/
+
+    footer{
+        background-color: black;
+        padding: 20px 0px;
+    }
+
+    .footer_container{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .footer_menu{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .footer_container a{
+        text-decoration: none;
+        color: white;
+        font-size: 11px;
+        margin-right: 8px;
+    }
+
+    .social h5 {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .social_icon{
+        display: flex;
+    }
+
+    .info_container h5{
+        margin-bottom: 6px;
+    }
+
+    .social_icon i {
+        margin-left: 10px;
+    }
+/*Fine Footer*/
